@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081117">
+  <meta name="description" content="EULER — Protocole Zéro. Une aventure spatiale pour maîtriser les dérivées, l’exponentielle et la méthode d’Euler.">
+  <title>EULER — Protocole Zéro</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23081117'/%3E%3Cpath d='M42 13H25L14 32l11 19h17M23 32h19' fill='none' stroke='%23ff9166' stroke-width='6'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+<svg class="symbols" aria-hidden="true"><defs>
+<symbol id="i-orbit" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><ellipse cx="12" cy="12" rx="11" ry="5" transform="rotate(-35 12 12)"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9S4 17 4 12V6z"/><path d="m8 12 3 3 5-6"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 10-13h-7z"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V6a4 4 0 0 1 8 0v4m-4 5v2"/></symbol>
+<symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5C8 2 3 3 3 3v17s5-1 9 2c4-3 9-2 9-2V3s-5-1-9 2v17"/></symbol>
+<symbol id="i-sound" viewBox="0 0 24 24"><path d="m11 4-6 5H2v6h3l6 5zM15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol>
+<symbol id="i-scan" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M3 12h18"/><circle cx="12" cy="12" r="4"/></symbol>
+</defs></svg>
+<header class="topbar">
+  <button class="brand" data-action="nav" data-page="map" aria-label="EULER, accueil"><span class="brand-mark">ε</span><span>EULER<small>PROTOCOLE ZÉRO</small></span></button>
+  <nav aria-label="Navigation principale"><button class="nav-btn active" data-action="nav" data-page="map">Campagne</button><button class="nav-btn" data-action="nav" data-page="arsenal">Vaisseau</button><button class="nav-btn" data-action="nav" data-page="codex">Codex</button><button class="nav-btn" data-action="nav" data-page="lab">Laboratoire</button></nav>
+  <div class="pilot"><span class="pilot-emblem">◇</span><div><span id="pilot-rank">PILOTE NOVICE</span><small id="pilot-xp">NIVEAU 01 · 0 XP</small></div></div>
+  <button class="icon-btn" id="sound-btn" data-action="sound" aria-label="Activer le son" aria-pressed="false"><svg><use href="#i-sound"/></svg><span class="sound-slash"></span></button>
+  <button class="icon-btn settings-btn" data-action="settings" aria-label="Réglages">⚙</button>
+</header>
+<main id="app"></main>
+<footer class="footer"><span><i class="status-dot"></i> SYSTÈMES OPÉRATIONNELS</span><span>DÉRIVÉES · EXPONENTIELLE · EULER</span><button data-action="help">GUIDE DU PILOTE <span>↗</span></button></footer>
+<dialog id="dialog"><div id="dialog-content"></div></dialog>
+<div id="toast" role="status"></div>
+<script src="questions.js"></script><script src="scene.js"></script><script src="lab.js"></script><script src="app.js?v=3"></script>
+</body>
+</html>
