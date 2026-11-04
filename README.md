@@ -1,47 +1,1 @@
-# EULER â€” Protocole ZÃ©ro
-
-Jeu pÃ©dagogique spatial en franÃ§ais, adaptÃ© des quatre feuilles fournies : dÃ©rivÃ©es, fonction exponentielle, condensateur et mÃ©thode dâ€™Euler.
-
-## Jouer
-
-Ouvre **EULER-Protocole-Zero.html** dans un navigateur moderne. Ce fichier contient tout le jeu et fonctionne hors connexion, sans installation. La version en ligne est accessible Ã  https://euler-protocole-zero-29oct.lonycadu1.chatgpt.site.
-
-La copie des sources contient aussi `index.html`, `style.css`, `app.js`, `questions.js`, `scene.js`, `lab.js` et `assets/space.png`. Ouvre `index.html` pour jouer ou sers ce dossier avec un serveur HTTP statique.
-
-## Contenu
-
-- Six secteurs : fondations, produits et compositions, trigonomÃ©trie et logarithmes, exponentielle, condensateur, Euler.
-- 60 questions vÃ©rifiÃ©es : 39 QCM et 21 rÃ©ponses numÃ©riques, avec indices et corrections.
-- Missions de 8 rencontres, gardiens, combos, Ã©toiles, XP et amÃ©liorations de vaisseau.
-- Exploration sans chronomÃ¨tre ; Assaut avec 45 secondes par question.
-- RÃ©vision des erreurs, simulation libre, 12 fiches de formules et deux laboratoires interactifs.
-- DÃ©cor original, animation Canvas, effets sonores activables, affichage adaptatif et rÃ©duction des animations.
-
-## Commandes
-
-Choisis les rÃ©ponses Ã  la souris ou au toucher. Les touches **1 Ã  4** rÃ©pondent aux QCM. Pour les rÃ©sultats numÃ©riques, une virgule ou un point sont acceptÃ©s. **EntrÃ©e** valide le champ ou le bouton sÃ©lectionnÃ©. **Ã‰chap** ouvre la pause. Le bouton Pause et la navigation permettent de revenir Ã  la carte et de reprendre la mission.
-
-Une erreur retire un point de coque. Une bonne rÃ©ponse dÃ©clenche un tir et rapporte des XP. Un indice rÃ©duit les XP de cette question. La coque renforcÃ©e, le rÃ©acteur et le scanner se dÃ©bloquent avec les crÃ©dits gagnÃ©s en jeu. Aucune monnaie rÃ©elle.
-
-## Sauvegarde
-
-La progression est automatiquement enregistrÃ©e dans le stockage local du navigateur, pour lâ€™adresse utilisÃ©e. Elle nâ€™est pas synchronisÃ©e entre navigateurs, appareils ou versions locale/en ligne. Un navigateur privÃ© ou un effacement de ses donnÃ©es peut supprimer cette sauvegarde. Les rÃ©glages permettent de recommencer Ã  zÃ©ro aprÃ¨s confirmation.
-
-## VÃ©rifications
-
-ContrÃ´les de syntaxe JavaScript ; structure des 60 questions ; recalcul de toutes les rÃ©ponses numÃ©riques ; contrÃ´le des dÃ©rivÃ©es. Essai rÃ©el dans le navigateur dâ€™une mission complÃ¨te, des erreurs, indices, arrondis, rÃ©compenses, dÃ©verrouillage, achat du scanner, rÃ©vision, sauvegarde et reprise. ContrÃ´le des deux laboratoires, du clavier et de lâ€™affichage Ã  largeur mobile simulÃ©e. Pas de test sur tÃ©lÃ©phone physique.
-
-## DÃ©cor
-
-Lâ€™image `assets/space.png` a Ã©tÃ© crÃ©Ã©e avec lâ€™outil intÃ©grÃ© image_gen, puis inspectÃ©e et intÃ©grÃ©e sans modification. Elle est incluse dans le fichier autonome et dans lâ€™archive des sources. Prompt de gÃ©nÃ©ration :
-
-Use case: stylized-concept
-Asset type: cinematic science-fiction game background, landscape 16:9, ultra wide, polished AAA game key art.
-Primary request: A spectacular immense burnt orange planet fills the right 55% of the image, realistic rust and copper surface textures with delicate wispy cloud systems and a thin glowing atmospheric rim. Deep black-teal outer space on the left. A tiny elegant research spacecraft silhouette in the lower right brings a sense of enormous scale. One very large faint circular orbital ring gently arcs through the surrounding space.
-Style/medium: photorealistic 3D cinematic matte painting, sophisticated restrained premium film and video game art direction, exceptionally beautiful and credible planetary atmosphere.
-Composition/framing: 16:9 widescreen. Planet dramatically placed on the right, slightly cropped by the right edge. The left 45% must remain very dark, calm, clear negative space for game UI text, with only a few tiny distant stars. Spacious composition. No UI is drawn.
-Lighting/mood: warm copper light and a delicate golden atmospheric rim against cold near-black teal shadows, awe and quiet exploration, subtle volumetric depth, refined contrast.
-Constraints: no lettering, no words, no labels, no typography, no UI, no logos, no collage, no watermarks, no bright stars or objects in the left 45%, no crowded composition, no cartoon look.
-
-Generated with the built-in image_gen tool. No reference images. Copied unmodified to work/euler-protocol/dist/assets/space.png.
-
+zºè¬&§µÊŞj×­…ë2šX§‘ú+šémŠÈ^–[·úîŸû¬z¿õÓM?~y¦º[b²¥–ÏöÛ^ıß¾û÷úßCÉ·­…êŞj·¬¢g¢²Ë³­†—«š+,Š‰ì~Ší…çb­ç-¢¼‘y§h\ŸŠW¬ÊË^š‹®º+ßB2UTÄU"(	B&÷Fö6öÆR¬:—&ğ ¤¦WR:–Fvöv—VR7F–ÂVâg&ì:v—2ÂFL:’GR6÷W'2WBGR&öw&ÖÖRGRFWfö—"¢æöÖ'&W26ö×ÆW†W2ÂL:—&—l:–W2ÂW‡öæVçF–VÆÆRÂÆöv&—F†ÖRÂ6öæFVç6FWW"WBÜ:—F†öFRN(	”WVÆW"à ¢22¦÷VW  ¤÷Wg&R¢¤UTÄU"Õ&÷Fö6öÆRÕ¦W&òæ‡FÖÂ¢¢Fç2Vâæf–vFWW"ÖöFW&æRâ6Rf–6†–W"6öçF–VçBF÷WBÆR¦WRWBföæ7F–öææR†÷'26öææW†–öâÂ6ç2–ç7FÆÆF–öââÆfW'6–öâVâÆ–væRW7B66W76–&ÆR:‡GG3¢òöWVÆW"×&÷Fö6öÆR×¦W&òÓ#–ö7BæÆöç–6GSæ6†FwBç6—FRà ¤Æ6÷–RFW26÷W&6W26öçF–VçBW76’–æFW‚æ‡FÖÆÂ7G–ÆRæ776Âæ§6ÂVW7F–öç2æ§6Â66VæRæ§6ÂÆ"æ§6WB76WG2÷76Rçævâ÷Wg&R–æFW‚æ‡FÖÆ÷W"¦÷VW"÷R6W'26RF÷76–W"fV2Vâ6W'fWW"…EE7FF—VRà ¢226öçFVçP ¢Ò6WB6V7FWW'2¢föæFF–öç2Â&öGV—G2WB6ö×÷6—F–öç2ÂG&–vöæöÜ:—G&–RWBÆöv&—F†ÖW2ÂW‡öæVçF–VÆÆRÂ6öæFVç6FWW"ÂWVÆW"WBæöÖ'&W26ö×ÆW†W2à¢ÒsVW7F–öç2l:—&–fœ:–W2ÂfV2–æF–6W2WB6÷'&V7F–öç2L:—F–ÆÌ:–W2à¢ÒVâÖöFR*²FWfö—"FR¦WVF’+²FR"VW7F–öç2Â:—V–Æ–',:’VçG&R6ö×ÆW†W2ÂL:—&—l:–W2ÂW‡öæVçF–VÆÆRWBÆöv&—F†ÖRà¢ÒÖ—76–öç2FR‚&Væ6öçG&W2Âv&F–Vç2Â6öÖ&÷2Â:—Fö–ÆW2Â…WBÜ:–Æ–÷&F–öç2FRf—76VRà¢ÒW‡Æ÷&F–öâ6ç26‡&öæöÜ:‡G&R²76WBfV2CR6V6öæFW2"VW7F–öâà¢Ò,:—f—6–öâFW2W'&WW'2Â6–×VÆF–öâÆ–'&RÂ‚f–6†W2FRf÷&×VÆW2WBFWW‚Æ&÷&Fö—&W2–çFW&7F–g2à¢ÒL:–6÷"÷&–v–æÂÂæ–ÖF–öâ6çf2ÂVffWG26öæ÷&W27F—f&ÆW2Âff–6†vRFFF–bWB,:–GV7F–öâFW2æ–ÖF–öç2à ¢226öÖÖæFW0 ¤6†ö—6—2ÆW2,:—öç6W2:Æ6÷W&—2÷RRF÷V6†W"âÆW2F÷V6†W2¢£:B¢¢,:—öæFVçBW‚4Òâ÷W"ÆW2,:—7VÇFG2çVÜ:—&—VW2ÂVæRf—&wVÆR÷RVâö–çB6öçB66WL:—2â¢¤VçG,:–R¢¢fÆ–FRÆR6†×÷RÆR&÷WFöâ<:–ÆV7F–öæì:’â¢¬8–6†¢¢÷Wg&RÆW6RâÆR&÷WFöâW6RWBÆæf–vF–öâW&ÖWGFVçBFR&WfVæ—":Æ6'FRWBFR&W&VæG&RÆÖ—76–öâà ¥VæRW'&WW"&WF—&RVâö–çBFR6÷VRâVæR&öææR,:—öç6RL:–6ÆVæ6†RVâF—"WB&÷'FRFW2…âVâ–æF–6R,:–GV—BÆW2…FR6WGFRVW7F–öââÆ6÷VR&Væf÷&<:–RÂÆR,:–7FWW"WBÆR66ææW"6RL:–&Æ÷VVçBfV2ÆW27,:–F—G2vvì:—2Vâ¦WRâV7VæRÖöææ–R,:–VÆÆRà ¢226WfVv&FP ¤Æ&öw&W76–öâW7BWFöÖF—VVÖVçBVç&Vv—7G,:–RFç2ÆR7Fö6¶vRÆö6ÂGRæf–vFWW"Â÷W"Î(	–G&W76RWF–Æ—<:–RâVÆÆRî(	–W7B27–æ6‡&öæ—<:–RVçG&Ræf–vFWW'2Â&V–Ç2÷RfW'6–öç2Æö6ÆRöVâÆ–væRâVâæf–vFWW"&—l:’÷RVâVff6VÖVçBFR6W2Föæì:–W2WWB7W&–ÖW"6WGFR6WfVv&FRâÆW2,:–vÆvW2W&ÖWGFVçBFR&V6öÖÖVæ6W":¬:—&ò,:‡26öæf—&ÖF–öâà ¢22l:—&–f–6F–öç0 ¤6öçG,;FÆW2FR7–çF†R¦f67&—B²7G'V7GW&RFW2sVW7F–öç2²&V6Æ7VÂFW2,:—öç6W2çVÜ:—&—VW2²6öçG,;FÆRFW2L:—&—l:–W2WBFW2VW7F–öç27W"ÆW26ö×ÆW†W2âW76’,:–VÂFç2ÆRæf–vFWW"GRÖöFRFWfö—"WBFW2Ö—76–öç2ÂFW2W'&WW'2Â–æF–6W2Â'&öæF—2Â,:–6ö×Vç6W2ÂL:—fW'&÷V–ÆÆvRÂ,:—f—6–öâÂ6WfVv&FRWB&W&—6Râ6öçG,;FÆRFW2FWW‚Æ&÷&Fö—&W2ÂGR6Æf–W"WBFRÎ(	–ff–6†vR:Æ&vWW"Öö&–ÆR6–×VÌ:–Râ2FRFW7B7W"L:–Ì:—†öæR‡—6—VRà ¢22L:–6÷  ¤Î(	––ÖvR76WG2÷76Rçæv:—L:’7,:œ:–RfV2Î(	–÷WF–Â–çL:–w,:’–ÖvUövVâÂV—2–ç7V7L:–RWB–çL:–w,:–R6ç2ÖöF–f–6F–öââVÆÆRW7B–æ6ÇW6RFç2ÆRf–6†–W"WFöæöÖRWBFç2Î(	–&6†—fRFW26÷W&6W2â&ö×BFR|:–ì:—&F–öâ  ¥W6R66S¢7G–Æ—¦VBÖ6öæ6W@¤76WBG—S¢6–æVÖF–266–Væ6RÖf–7F–öâvÖR&6¶w&÷VæBÂÆæG66Rc£’ÂVÇG&v–FRÂöÆ—6†VBvÖR¶W’'Bà¥&–Ö'’&WVW7C¢7V7F7VÆ"–ÖÖVç6R'W&çB÷&ævRÆæWBf–ÆÇ2F†R&–v‡BSRRöbF†R–ÖvRÂ&VÆ—7F–2'W7BæB6÷W"7W&f6RFW‡GW&W2v—F‚FVÆ–6FRv—7’6Æ÷VB7—7FV×2æBF†–âvÆ÷v–ærFÖ÷7†W&–2&–ÒâFVW&Æ6²×FVÂ÷WFW"76RöâF†RÆVgBâF–ç’VÆVvçB&W6V&6‚76V7&gB6–Æ†÷VWGFR–âF†RÆ÷vW"&–v‡B'&–æw26Vç6RöbVæ÷&Ö÷W266ÆRâöæRfW'’Æ&vRf–çB6—&7VÆ"÷&&—FÂ&–ærvVçFÇ’&72F‡&÷Vv‚F†R7W'&÷VæF–ær76Rà¥7G–ÆRöÖVF—VÓ¢†÷F÷&VÆ—7F–24B6–æVÖF–2ÖGFR–çF–ærÂ6÷†—7F–6FVB&W7G&–æVB&VÖ—VÒf–ÆÒæBf–FVòvÖR'BF—&V7F–öâÂW†6WF–öæÆÇ’&VWF–gVÂæB7&VF–&ÆRÆæWF'’FÖ÷7†W&Rà¤6ö×÷6—F–öâög&Ö–æs¢c£’v–FW67&VVââÆæWBG&ÖF–6ÆÇ’Æ6VBöâF†R&–v‡BÂ6Æ–v‡FÇ’7&÷VB'’F†R&–v‡BVFvRâF†RÆVgBCRR×W7B&VÖ–âfW'’F&²Â6ÆÒÂ6ÆV"æVvF—fR76Rf÷"vÖRT’FW‡BÂv—F‚öæÇ’fWrF–ç’F—7FçB7F'2â76–÷W26ö×÷6—F–öââæòT’—2G&vâà¤Æ–v‡F–æröÖööC¢v&Ò6÷W"Æ–v‡BæBFVÆ–6FRvöÆFVâFÖ÷7†W&–2&–Òv–ç7B6öÆBæV"Ö&Æ6²FVÂ6†F÷w2ÂvRæBV–WBW‡Æ÷&F–öâÂ7V'FÆRföÇVÖWG&–2FWF‚Â&Vf–æVB6öçG&7Bà¤6öç7G&–çG3¢æòÆWGFW&–ærÂæòv÷&G2ÂæòÆ&VÇ2ÂæòG—öw&‡’ÂæòT’ÂæòÆöv÷2Âæò6öÆÆvRÂæòvFW&Ö&·2Âæò'&–v‡B7F'2÷"ö&¦V7G2–âF†RÆVgBCRRÂæò7&÷vFVB6ö×÷6—F–öâÂæò6'FööâÆöö²à ¤vVæW&FVBv—F‚F†R'V–ÇBÖ–â–ÖvUövVâFööÂâæò&VfW&Væ6R–ÖvW2â6÷–VBVæÖöF–f–VBFòv÷&²öWVÆW"×&÷Fö6öÂöF—7Bö76WG2÷76Rçærà 
